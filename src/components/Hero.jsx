@@ -78,7 +78,7 @@ function Hero() {
       <div className="hero-image-container fade-in-down">
         <div className="image-frame">
           <img
-            src="/src/assets/cc.png"
+            src={`${import.meta.env.BASE_URL}cc.png`}
             alt="Sankara Portrait"
             className="hero-image"
           />

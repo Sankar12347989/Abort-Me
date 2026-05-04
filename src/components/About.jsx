@@ -24,7 +24,11 @@ function About() {
       <div className="about-container">
         <div className="about-image reveal-animate">
           <div className="image-wrapper">
-            <img src="/src/assets/cc.png" alt="Sankara" className="about-img" />
+            <img
+              src={`${import.meta.env.BASE_URL}cc.png`}
+              alt="Sankara"
+              className="about-img"
+            />
             <div className="image-glow"></div>
           </div>
         </div>
