@@ -1,0 +1,44 @@
+<svg viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
+  <title id="title">Online Learning and Quiz Portal</title>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#22c55e" />
+      <stop offset="100%" stop-color="#b800ff" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#00f0ff" />
+      <stop offset="100%" stop-color="#ff0055" />
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="800" rx="90" fill="url(#bg)" />
+  <rect x="120" y="120" width="560" height="560" rx="60" fill="rgba(255,255,255,0.12)" />
+
+  <!-- Header -->
+  <rect x="170" y="170" width="460" height="80" rx="28" fill="#fff" opacity="0.92" />
+  <rect x="210" y="198" width="240" height="24" rx="12" fill="rgba(0,0,0,0.10)" />
+  <rect x="470" y="198" width="130" height="24" rx="12" fill="rgba(0,0,0,0.10)" />
+  <rect x="470" y="198" width="78" height="24" rx="12" fill="url(#accent)" opacity="0.95" />
+
+  <!-- Book icon -->
+  <path d="M222 320c0-20 16-36 36-36h122c18 0 34 8 44 22 10-14 26-22 44-22h122c20 0 36 16 36 36v210c0 20-16 36-36 36H468c-18 0-34 8-44 22-10-14-26-22-44-22H258c-20 0-36-16-36-36V320z"
+        fill="#fff" opacity="0.92" />
+  <path d="M424 306v278" stroke="rgba(0,0,0,0.16)" stroke-width="10" stroke-linecap="round" />
+  <path d="M270 344h120" stroke="rgba(0,0,0,0.22)" stroke-width="14" stroke-linecap="round" />
+  <path d="M270 388h140" stroke="rgba(0,0,0,0.22)" stroke-width="14" stroke-linecap="round" />
+  <path d="M460 344h120" stroke="rgba(0,0,0,0.22)" stroke-width="14" stroke-linecap="round" />
+  <path d="M460 388h140" stroke="rgba(0,0,0,0.22)" stroke-width="14" stroke-linecap="round" />
+
+  <!-- Quiz/check -->
+  <rect x="220" y="580" width="420" height="110" rx="30" fill="#fff" opacity="0.92" />
+  <circle cx="270" cy="635" r="22" fill="url(#accent)" opacity="0.95" />
+  <path d="M258 636l10 10 24-26" fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" />
+  <rect x="310" y="615" width="260" height="18" rx="9" fill="rgba(0,0,0,0.12)" />
+  <rect x="310" y="648" width="190" height="18" rx="9" fill="rgba(0,0,0,0.12)" />
+
+  <!-- Certificate badge -->
+  <circle cx="610" cy="580" r="32" fill="url(#accent)" opacity="0.95" />
+  <path d="M595 578l15 15 28-32" fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M596 612l14 22 14-22" fill="#ff0055" opacity="0.85" />
+</svg>
+
