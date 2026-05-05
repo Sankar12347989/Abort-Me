@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig(({ command }) => ({
-  base: command === 'build' ? '/Myportfolio-/' : '/',
+  base: command === 'build' ? '/Abort-Me/' : '/',
   plugins: [react()],
 }))
