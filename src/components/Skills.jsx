@@ -1,5 +1,3 @@
-import React from "react";
-
 function Skills() {
   const skills = [
     { name: "HTML5", icon: "🏗️" },

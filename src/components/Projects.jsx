@@ -1,5 +1,3 @@
-import React from "react";
-
 import todoAppImg from "../assets/todo-app.svg";
 import shoppingWebsiteImg from "../assets/shopping-website.svg";
 import learningQuizImg from "../assets/learning-quiz.svg";
@@ -92,4 +90,3 @@ function Projects() {
 }
 
 export default Projects;
-

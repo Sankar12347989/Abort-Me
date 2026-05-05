@@ -1,62 +1,45 @@
+/* Global base styles.
+   Component/theme styles live in `theme.css`. */
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body {
+  width: 100%;
+  max-width: 100%;
+}
+
 body {
   margin: 0;
-  font-family: "Poppins", sans-serif;
-  background: #f5f5f5;
-  color: #333;
+  min-height: 100vh;
 }
 
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  padding: 1rem 2rem;
-  background: #111;
-  color: #fff;
+#root {
+  min-height: 100vh;
 }
 
-.hero {
-  text-align: center;
-  padding: 5rem 2rem;
-  background: linear-gradient(135deg, #667eea, #764ba2);
-  color: #fff;
+img,
+svg,
+video,
+canvas {
+  max-width: 100%;
+  height: auto;
 }
 
-.fade-in {
-  animation: fadeIn 2s ease-in;
+button,
+input,
+textarea,
+select {
+  font: inherit;
 }
 
-.slide-up {
-  animation: slideUp 2s ease-in-out;
+a {
+  color: inherit;
 }
 
-.skills-grid, .project-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 1.5rem;
-  padding: 2rem;
-}
-
-.skill-card, .project-card {
-  background: #fff;
-  padding: 1rem;
-  border-radius: 10px;
-  text-align: center;
-  transition: transform 0.3s ease;
-}
-
-.skill-card:hover, .project-card:hover {
-  transform: scale(1.05);
-}
-
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
-}
-
-@keyframes slideUp {
-  from { transform: translateY(50px); opacity: 0; }
-  to { transform: translateY(0); opacity: 1; }
-}
-
-.zoom:hover {
-  transform: scale(1.1);
+/* Helps prevent flex/grid children from forcing horizontal scroll. */
+* {
+  min-width: 0;
 }

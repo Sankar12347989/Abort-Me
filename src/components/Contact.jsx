@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 function Contact() {
   const [formData, setFormData] = useState({
@@ -44,7 +44,7 @@ function Contact() {
             </div>
 
             <div className="info-item">
-              <div className="info-icon">�</div>
+              <div className="info-icon">📞</div>
               <h3>Phone</h3>
               <a href="tel:+919442798994" className="info-link">
                 +91 9442798994
@@ -52,7 +52,7 @@ function Contact() {
             </div>
 
             <div className="info-item">
-              <div className="info-icon">�💬</div>
+              <div className="info-icon">💬</div>
               <h3>Let's Connect</h3>
               <p>
                 I'm always open to new opportunities and interesting projects
